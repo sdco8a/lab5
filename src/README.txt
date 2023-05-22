@@ -10,4 +10,4 @@ TODO: Adicionar 1 (uma) das seguintes funcionalidades:
 1) Interface grafica 
 2) Implementar unbind no Peer.java
 3) Peer.java deve ser capaz de escolher o peer.
-4) Pelo menos 1 (um) novo peers deve ser adicionado no enum PeerLista.
+4) Pelo menos 1 (um) novo peer deve ser adicionado no enum PeerLista.
