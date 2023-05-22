@@ -21,7 +21,7 @@ import java.util.Map;
 import java.util.Scanner;
 import java.util.Set;
 
-public class Principal_v2 {
+public class Principal {
 
 	public final static Path path = Paths
 			.get("src\\fortune-br.txt");

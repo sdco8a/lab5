@@ -59,11 +59,11 @@ public class Peer implements IMensagem{
 			 fortune = p2[1];
 			 
 			// Write in file
-			Principal_v2 pv2 = new Principal_v2();
+			Principal pv2 = new Principal();
 			pv2.write(fortune);
 		} else if (v1[1].equals("read")) {
 			// Read file
-			Principal_v2 pv2 = new Principal_v2();
+			Principal pv2 = new Principal();
 			fortune = pv2.read();
 		}
 
