@@ -1,9 +1,10 @@
-1 cliente pode se conectar a servidores E
-1 servidor pode se conectar a varios clientes.  
+Peer.java eh o ServerImpl.java dos laboratorios anteriores, porem
+agora cada Peer.java pode se conectar diretamente a outro Peer.java. 
+  
 
-ServidorImpl eh, ao mesmo tempo, servidor e cliente. (P2P)
+Peer.java eh, ao mesmo tempo, servidor e cliente. (P2P)
 Mas, ClienteRMI nao pode invocar novamente ServidorImpl (loop)
-(ClienteRMI agora eh usado apenas pelo ServerImpl. ServerImpl eh o peer.) 
+(ClienteRMI agora eh usado apenas pelo Peer.java, que eh o peer.) 
 
 TODO: Adicionar 1 (uma) das seguintes funcionalidades:
 1) Interface grafica 
